@@ -4,12 +4,6 @@ Aplikasi Mesin ATM untuk tugas ke-1 kelas OSG08.
 
 ## Screenshoot
 ![](Capture_TG01/1. Main Menu.png).
-![](iCapture_TG01mg/2. Menu Login.png).
-![](Capture_TG01/3. Salah Memasukan PIN.png).
-![](Capture_TG01/4. Tarik Tunai Melebihi Saldo.png).
-![](Capture_TG01/5. Cek Saldo.png).
-![](Capture_TG01/6. Setor Tunai.png).
-![](Capture_TG01/7. Saldo Nol Tarik Tunai.png).
 
 ## Built With
 - [Dart](https://dart.dev/)
