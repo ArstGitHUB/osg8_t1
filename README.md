@@ -4,7 +4,6 @@ Aplikasi Mesin ATM untuk tugas ke-1 kelas OSG08.
 
 ## Screenshoot
 ![](capture/1.MainMenu.png).
-![](capture/5.CekSaldo.PNG).
 
 ## Built With
 - [Dart](https://dart.dev/)
