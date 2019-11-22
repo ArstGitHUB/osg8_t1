@@ -4,7 +4,7 @@ Aplikasi Mesin ATM untuk tugas ke-1 kelas OSG08.
 
 ## Screenshoot
 1. Main Menu
-![](img/MainMenu.png).
+![](img/1.MainMenu.png).
 
 2. Menu Login
 ![](img/2.MenuLogin.png).
