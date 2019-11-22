@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 class Users{
 
   String username;
@@ -42,46 +41,10 @@ bool login(String name) {
     
   }
   return isValidUser;
-=======
-import 'main.dart';
-
-class User {
-
-  String username;
-  int pin;
-  double saldo;
-  
-  User(this.username, this.pin,this.saldo);
-}
-
-bool login(String name) {
-
-  var username ;
-  switch (name) {
-    case "Aris":
-      {
-        username = name;
-      }
-      break;
-    case "Ben":
-      {
-        username = name;
-      }
-      break;
-    default:
-      {
-          print("Maaf username $name belum terdaftar");
-          main();
-      }
-      break;
-  }
-  return name == username;
->>>>>>> Upload Tg01
 }
 
 bool password(String name, var pin) {
 
-<<<<<<< HEAD
   bool isValidPin = false;
   int checkPin = int.parse(pin);
 
@@ -98,65 +61,18 @@ bool password(String name, var pin) {
   }
   
   return isValidPin;
-=======
-  var username ;
-  var checkpin;
-  switch (name) {
-    case "Aris":
-      {
-        if (pin == "123456"){
-            username = name;
-            checkpin = pin;
-        }
-      }
-      break;
-    case "Ben":
-      {
-        if (pin == "654321"){
-            username = name;
-            checkpin = pin;
-        }
-      }
-      break;
-    default:
-      {
-          print("Maaf username $name belum terdaftar");
-      }
-      break;
-  }
-  return name == username && pin == checkpin;
->>>>>>> Upload Tg01
 }
 
 int checkingsaldo (String name){
   
   int currentSaldo;
 
-<<<<<<< HEAD
   for (Users usr in users)
   {
     if (name == usr.getName())
     {
       currentSaldo = usr.getSaldoBalance();
     }
-=======
-  switch (name) {
-    case "Aris":
-      {
-        currentSaldo = 300000;
-      }
-      break;
-    case "Ben":
-      {
-        currentSaldo = 200000;
-      }
-      break;
-    default:
-      {
-          print("Maaf username $name belum terdaftar");
-      }
-      break;
->>>>>>> Upload Tg01
   }
   
   return currentSaldo;
