@@ -2,6 +2,7 @@ import 'dart:io';
 import 'class_menu.dart';
 import 'class_user.dart';
 
+<<<<<<< HEAD
 
 int saldo ; 
 
@@ -68,10 +69,30 @@ void validatingUsername ()
       main();
     }
 
+=======
+int saldo ; 
+void main() {
+
+    print("======================================================================================");
+    print("=                             SELAMAT DATANG ATM BANK OSG8                           =");
+    print("======================================================================================");
+    print("");
+    print("+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++");
+    print("=                          Silahkan masukan username Anda ?                           =");
+    print("+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++");
+    var name = stdin.readLineSync();
+    
+    if (login(name) == true) {
+      
+        validatingPin(name);
+    }
+   
+>>>>>>> Upload Tg01
 }
 
 void validatingPin (String name){
 
+<<<<<<< HEAD
       //int tryPin=1;
       print("+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++");
       print("=                   Masukan PIN anda, jangan sampai salah ya ?                        =");
@@ -80,11 +101,27 @@ void validatingPin (String name){
       var username = name;
 
 
+=======
+      //int tryPin;
+      print("++++++++++++++++++++++++++++++++++++++++++++++++++++");
+      print("=    Masukan PIN anda, jangan sampai salah ya ?    =");
+      print("++++++++++++++++++++++++++++++++++++++++++++++++++++");
+      var pin = stdin.readLineSync();
+      var username = name;
+>>>>>>> Upload Tg01
       if(password (username, pin) == true) {
          saldo = checkingsaldo(name);
          menu(username, saldo);
       }
+<<<<<<< HEAD
       
+=======
+      else
+      {
+         print("Maaf PIN yang anda masukan salah !!!");
+         validatingPin(username);
+      }
+>>>>>>> Upload Tg01
 }
 
 /*
