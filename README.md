@@ -4,10 +4,25 @@ Aplikasi Mesin ATM untuk tugas ke-1 kelas OSG08.
 
 ## Screenshoot
 1. Main Menu
-![](img/1.MainMenu.png)
+![](img/1.MainMenu.png).
 
 2. Menu Login
-![](img/2.MenuLogin.png)
+![](img/2.MenuLogin.png).
+
+3. Menu Login
+![](img/3.SalahMemasukanPIN.png).
+
+4. Menu Login
+![](img/4.TarikTunaiMelebihiSaldo.png).
+
+5. Menu Login
+![](img/5.CekSaldo.png).
+
+6. Menu Login
+![](img/6.SetorTunai.png).
+
+7. Menu Login
+![](img/7.SaldoNolTarikTunai.png).
 
 ## Built With
 - [Dart](https://dart.dev/)
