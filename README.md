@@ -9,19 +9,19 @@ Aplikasi Mesin ATM untuk tugas ke-1 kelas OSG08.
 2. Menu Login
 ![](img/2.MenuLogin.png).
 
-3. Menu Login
+3. Salah Memasukan PIN
 ![](img/3.SalahMemasukanPIN.png).
 
-4. Menu Login
+4. Tarik Tunai Melebihi Saldo
 ![](img/4.TarikTunaiMelebihiSaldo.png).
 
 5. Menu Login
 ![](img/5.CekSaldo.png).
 
-6. Menu Login
+6. Setor Tunai
 ![](img/6.SetorTunai.png).
 
-7. Menu Login
+7. Saldo Nol Tarik Tunai
 ![](img/7.SaldoNolTarikTunai.png).
 
 ## Built With
